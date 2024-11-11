@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function validateForm() {
+            const username = document.getElementById("username").value;
+            const password = document.getElementById("password").value;
+            
+            if (username === "") {
+                alert("Please enter your username.");
+                return false;
+            }
+            
+            if (password === "") {
+                alert("Please enter your password.");
+                return false;
+            }
+            
+            alert("Login successful!");
+            return true;
+        }
+    </script>
+</head>
+<body>
+    <form onsubmit="return validateForm()">
+        <h3>Login</h3>
+        <input type="text" id="username" placeholder="Username" width="100%"><br><br>
+        <input type="password" id="password" placeholder="Password"><br><br>
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>

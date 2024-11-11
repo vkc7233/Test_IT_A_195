@@ -1,0 +1,27 @@
+head{
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+}
+.h3d{
+    color: aquamarine;
+    padding: 5px;
+}
+button:hover{
+    padding: 5px;
+    background-color:#28a745;
+    color: white;
+}
+ul{
+    list-style: none;
+    color: rgb(49, 49, 243);
+}
+a{
+    text-decoration: none;
+}
+main{
+    background-color: aliceblue;
+    padding: 5px;
+    margin: auto;
+    align-items: center;
+}
